@@ -38,17 +38,17 @@ The HQL grammar defines a simple boolean language in prefix notation to query/ev
 grammar HistogramQueryLanguage;
 
 prog: AND expr+
-	| OR expr+
-	| GT value+ INT
-	| expr+
-	;
+    | OR expr+
+    | GT value+ INT
+    | expr+
+    ;
 
 expr: '(' AND expr+ ')'
-	| '(' OR expr+ ')'
+    | '(' OR expr+ ')'
     | '(' GT value+ INT ')'
-	| NOT expr
+    | NOT expr
     | value
-	;
+    ;
 
 value: WORD | SQWORD | DQWORD;
 
