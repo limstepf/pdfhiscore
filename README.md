@@ -165,7 +165,7 @@ java -jar ${app} --directory ${dir} --query ${query} --config ${cfg} | tee ${log
       abs-frequency: 309,
       rel-frequency: 0.2734513274336283
     },
-	# ...
+# ...
     '|| review "systematic review" "mapping study" "systematic mapping"': {
       abs-frequency: 336,
       rel-frequency: 0.2973451327433628
@@ -180,7 +180,7 @@ java -jar ${app} --directory ${dir} --query ${query} --config ${cfg} | tee ${log
       abs-frequency: 96,
       rel-frequency: 0.08495575221238938
     },
-	# ...
+# ...
     review: {
       abs-frequency: 332, # probably should be replaced by 'literature review'
       rel-frequency: 0.2938053097345133
@@ -217,10 +217,10 @@ java -jar ${app} --directory ${dir} --query ${query} --config ${cfg} | tee ${log
     kurtosis: -0.43229660007426407
   },
   score-normalized: { 
-    # ...
+# ...
   },
   score-cut-normalized: {
-    # ...
+# ...
   },
   scores: {
     1000_Shanti2014126.pdf: [
@@ -233,7 +233,7 @@ java -jar ${app} --directory ${dir} --query ${query} --config ${cfg} | tee ${log
       0.3333333333333333,
       0.3333333333333333]
     ,
-	# ...
+# ...
     9_Ashford%3A2011%3ADVS%3A2459296.2459311.pdf: [
       11.0,
       0.4583333333333333,
@@ -352,7 +352,7 @@ search-results:
     query-matches: {
       'systematic review': 1
     }
-	# ...
+# ...
   - name: '936_Shahin2014161.pdf'
     path: '.\pdf-files\936_Shahin2014161.pdf'
     num-pages: 25
